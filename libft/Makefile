@@ -1,5 +1,5 @@
 NAME = libft.a
-FLAGS = -Wall -Werror -Wextra
+FLAGS = -Wall -Werror -Wextra -g3
 RM = rm -rf
 SRCS =	ft_isalpha.c\
 		ft_isdigit.c\
@@ -35,6 +35,11 @@ SRCS =	ft_isalpha.c\
 		ft_itoa.c\
 		ft_strtrim.c\
 		ft_split.c\
+		../gnl/get_next_line.c\
+		../gnl/get_next_line_utils.c\
+		../ft_printf/ft_printf.c\
+		../ft_printf/ft_printf_utils.c\
+		../ft_printf/ft_printf_hexa.c\
 
 SRCS_BONUS = $(SRCS) \
 					ft_lstnew_bonus.c\
